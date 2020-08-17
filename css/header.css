@@ -51,7 +51,7 @@ header .header-superior .home .home-message {
 }
 
 header .header-superior nav {
-    width: 200px;
+    width: 300px;
     margin-top: 15px;
     margin-right: 6%;
 }
@@ -64,7 +64,48 @@ header .header-superior nav ul li {
     flex-grow: 1;
     text-align: center;
     cursor: pointer;
+}
+
+header .header-superior nav ul li a img {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+
+    header .header-superior .home {
+        width: 100px;
+    }
+
+    header .header-superior .home img {
+        width: 80px;
+    }
     
+    header .header-superior nav ul {
+        padding-right: 10px;
+
+    }
+    header .header-superior nav ul li + li {
+        margin-left: 3px;
+    }
+
+    header .header-superior nav ul li a img {
+        width: 18px;
+        line-height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1024px) {
+    
+    header .header-superior nav ul li + li {
+        margin-left: -20%;
+    }
+
+    header .header-superior nav ul li a img {
+        background-color: #fff;
+       
+    }
 }
 
 /* ========== header inferior ========== */
@@ -172,6 +213,7 @@ header .header-inferior .menu ul li a:hover {
 
     header .header-inferior .menu ul li a {
         color: #fff;
+        font-size: 12px;
     }
 
     #btn-menu:checked ~ .menu {
