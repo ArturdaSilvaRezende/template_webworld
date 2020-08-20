@@ -70,13 +70,18 @@ header .header-superior nav ul li a img {
     background-color: #fff;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
+=======
+@media screen and (max-width: 760px) {
+>>>>>>> c9f261111a8bc872999294194465941bec323a5c
 
     header .header-superior .home {
         width: 100px;
     }
 
     header .header-superior .home img {
+<<<<<<< HEAD
         width: 80px;
     }
     
@@ -99,6 +104,26 @@ header .header-superior nav ul li a img {
 @media screen and (min-width: 761px) and (max-width: 1024px) {
     
     header .header-superior nav ul li + li {
+=======
+        width: 100px;
+    }
+    
+    header .header-superior nav ul li + li {
+        margin-left: 3px;
+    }
+
+    header .header-superior nav ul li a img {
+        width: 18px;
+        line-height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1024px) {
+    
+    header .header-superior nav ul li + li {
+>>>>>>> c9f261111a8bc872999294194465941bec323a5c
         margin-left: -20%;
     }
 
