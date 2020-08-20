@@ -7,7 +7,7 @@
     margin-left: auto;
     width: 60%;
 }
- 
+
 @media screen and (max-width: 768px){
 
     .bg-slide-title {
@@ -46,10 +46,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
     .article-main p {
         font-size: 18px;
     }
 }
+
 
 @media screen and (max-width: 767px){
 
@@ -62,6 +64,16 @@
     .article-main h2 {
         font-size: 18px;
         margin: 20px 0;
+    }
+
+    .article-main p {
+        width: 100%;
+    }
+
+    .article-main h2 {
+        font-size: 18px;
+        width: 80%;
+        margin: 20px auto;
     }
 
     .article-main p {
@@ -100,6 +112,7 @@
     margin-top: 20px;
     font-weight: bold;
 }
+
 
 @media screen and (max-width: 800px){
 
@@ -148,9 +161,9 @@
     font-size: 12pt;
 }
 
+
 @media screen and (max-width: 800px){
 
-  
     .img-propaganda figure h5 {
         font-size: 13px;
     }

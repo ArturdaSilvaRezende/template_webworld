@@ -10,7 +10,7 @@
 ul {
     list-style: none;
 }
- 
+
 /* ========== header superior ========== */
 
 header #btn-menu {
@@ -99,14 +99,21 @@ header .header-superior nav ul li a img {
 @media screen and (min-width: 761px) and (max-width: 1024px) {
     
     header .header-superior nav ul li + li {
-        margin-left: -20%;
+        width: 100px;
+    }
+    
+    header .header-superior nav ul li + li {
+        margin-left: 3px;
     }
 
     header .header-superior nav ul li a img {
+        width: 18px;
+        line-height: 10px;
         background-color: #fff;
-       
+        border-radius: 50%;
     }
 }
+
 
 /* ========== header inferior ========== */
 
@@ -120,8 +127,8 @@ header .header-inferior {
 
 header .header-inferior .search * {
     background: transparent;
-    border: none;
-    outline: none;
+	border: none;
+	outline: none;
 }
 
 header .header-inferior .search {
@@ -145,7 +152,7 @@ header .header-inferior .menu ul {
     margin: 0;
     padding: 0;
 }
-   
+
 header .header-inferior .menu ul li a {
     display: block;
     padding: 15px 20px;
