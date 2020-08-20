@@ -120,8 +120,8 @@ header .header-inferior {
 
 header .header-inferior .search * {
     background: transparent;
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 
 header .header-inferior .search {
