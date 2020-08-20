@@ -71,16 +71,21 @@ header .header-superior nav ul li a img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
 =======
 @media screen and (max-width: 760px) {
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+@media screen and (max-width: 767px) {
+>>>>>>> ArturRezende
 
     header .header-superior .home {
         width: 100px;
     }
 
     header .header-superior .home img {
+<<<<<<< HEAD
 <<<<<<< HEAD
         width: 80px;
     }
@@ -106,6 +111,9 @@ header .header-superior nav ul li a img {
     header .header-superior nav ul li + li {
 =======
         width: 100px;
+=======
+        width: 80px;
+>>>>>>> ArturRezende
     }
     
     header .header-superior nav ul li + li {
@@ -123,7 +131,10 @@ header .header-superior nav ul li a img {
 @media screen and (min-width: 761px) and (max-width: 1024px) {
     
     header .header-superior nav ul li + li {
+<<<<<<< HEAD
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+>>>>>>> ArturRezende
         margin-left: -20%;
     }
 
@@ -145,8 +156,8 @@ header .header-inferior {
 
 header .header-inferior .search * {
     background: transparent;
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 
 header .header-inferior .search {

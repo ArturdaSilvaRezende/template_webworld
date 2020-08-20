@@ -12,10 +12,14 @@
 
     .bg-slide-title {
 <<<<<<< HEAD
+<<<<<<< HEAD
        top: -12px;
 =======
        top: 10px;
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+       top: -12px;
+>>>>>>> ArturRezende
        width: 70%;
     }
 
@@ -50,20 +54,28 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 =======
 @media screen and (min-width: 761px) and (max-width: 1024px) {
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+>>>>>>> ArturRezende
     .article-main p {
         font-size: 18px;
     }
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 767px){
 =======
 @media screen and (min-width: 300px) and (max-width: 760px){
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+@media screen and (max-width: 767px){
+>>>>>>> ArturRezende
 
     .article-main { 
         display: flex;
@@ -74,16 +86,6 @@
     .article-main h2 {
         font-size: 18px;
         margin: 20px 0;
-    }
-
-    .article-main p {
-        width: 100%;
-    }
-
-    .article-main h2 {
-        font-size: 18px;
-        width: 80%;
-        margin: 20px auto;
     }
 
     .article-main p {
@@ -124,10 +126,14 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 800px){
 =======
 @media screen and (min-width: 300px) and (max-width: 800px){
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+@media screen and (max-width: 800px){
+>>>>>>> ArturRezende
 
     .cards-main .figures-container {
         flex-wrap: wrap;
@@ -175,10 +181,14 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 800px){
 =======
 @media screen and (min-width: 300px) and (max-width: 800px){
 >>>>>>> c9f261111a8bc872999294194465941bec323a5c
+=======
+@media screen and (max-width: 800px){
+>>>>>>> ArturRezende
 
   
     .img-propaganda figure h5 {
